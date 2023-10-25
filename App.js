@@ -18,6 +18,7 @@ export default function App() {
       alert('Você está levemente acima do peso - IMC = '+imcFinal+' Kg/m²');
     } else if (imc >= 34.9) {
       alert('Você está acima do peso - IMC = '+imcFinal+' Kg/m²');
+      
     }
     
     setAltura ('');
@@ -62,7 +63,7 @@ const estilo = StyleSheet.create({
   },
   title: {
     textAlign: 'center',
-    marginTop: 20,
+    marginTop: 25,
     fontSize: 30
   },
   input: {
@@ -93,7 +94,7 @@ const estilo = StyleSheet.create({
   },
   logoDiv:{
     flex: 1,
-    paddingTop: 70,
+    paddingTop: 75,
     justifyContent:'center',
     alignItems: 'center',
   }
